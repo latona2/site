@@ -1,0 +1,15 @@
+body{
+background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://thumb.tildacdn.com/tild3930-6435-4965-b736-646365666235/-/format/webp/iphone-desk-computer.jpg);
+background-color:#001100;
+color:#fff;
+ 	
+}
+h4, a{
+color:#875634;	
+padding-bottom:.5rem; 
+	
+}
+h1{
+	text-align:center
+	
+}
