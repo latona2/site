@@ -1,15 +1,138 @@
-body{
-background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://thumb.tildacdn.com/tild3930-6435-4965-b736-646365666235/-/format/webp/iphone-desk-computer.jpg);
+header {
+display:flex;
+align-items:center;
+justify-content:center;	
+height:400px;
 background-color:#001100;
-color:#fff;
- 	
+background-image: url(https://images.unsplash.com/photo-1577640064668-cf230bee547a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);	
 }
+
+
+body {
+margin:0 auto;
+padding:0;
+font-family: 'Prata', serif;	
+}
+
+footer{
+padding: 20px 0 0 60px;
+text-align:center;
+	
+	
+	
+}
+footer .links{
+margin-bottom:50px
+	
+	
+	
+}
+
+footer .links>a{
+color:#001100;
+text-transform:uppercase;
+font-size:13px;
+text-decoration:none;	
+margin-left:20px;	
+	
+}
+
+
+.copiright
+{
+	
+color: rgb(210, 180, 140)
+	
+}
+ 	
+	
+.news{
+	
+margin-bottom:50px	
+}	
+	
+article{
+	
+width:800px;
+margin:0 auto;
+padding:6px 35px;
+border-bottom: 2px solid rgb(210, 180, 140);
+
+
+}		
+	
+article img{
+	
+width:100%;
+height:300px;
+
+}		
+	
+	
+article a{
+	
+text-decoration:none;	
+color:rgb(210, 180, 140)
+
+}	
+
+article h2:hover{
+	
+	
+color:#8B4513;
+
+}	
+article h2{
+	
+	
+color:#D2691E;
+
+}	
+	
+	
+.article-date{
+	
+font-size:16px;
+color:#012700;
+padding:5px 0;
+
+}		
+	
+	
+	
+	
+article:nth-child(2n) {
+    background: #FDF5E6 ;
+   } 	
+	
+
+
+
+
+
+
+
+article:first-child h2:before,
+article:nth-child(2) h2:before{
+    content:"New";
+	color:	#FFF;
+	margin-right:10px;
+background-color:#FF4500;
+	font-size:25px;
+	
+   } 	
+
+	
+	
+	
+
 h4, a{
-color:#875634;	
+color:#BC8F8F;	
 padding-bottom:.5rem; 
 	
 }
 h1{
-	text-align:center
-	
+	text-align:center;
+	color:#8B4513;
+	font-size:46px;
 }
